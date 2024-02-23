@@ -1,0 +1,340 @@
+/* VARIABLES AND GLOBAL SPACING */
+:root {
+  --primary-color: #3c184e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL CONFIGURATION */
+html {
+  font: 400 62.5% "Montserrat", sans-serif;
+  color: var(--primary-color);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 0 0 45px;
+  font-size: 3vw;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2vw;
+  margin: 0 0 45px;
+}
+
+p {
+  font-size: 1.5vw;
+  text-align: center;
+  margin: 0 0 45px;
+}
+
+.destaque {
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* HEADER AND LOGO */
+.header {
+  max-width: 100vw;
+  padding: 12rem 8rem;
+  background-image: url(../img/banner-topo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.logo-container {
+  max-width: 26rem;
+}
+
+.logo-container p {
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+}
+
+.logo-name {
+  font-size: 3.5rem;
+}
+
+.logo-name img {
+  width: 3rem;
+  margin-right: 5px;
+}
+
+.logo-slogan {
+  font-size: 1.4rem;
+}
+
+/* HERO BANNER */
+.banner-container {
+  max-width: 50vw;
+  margin: 70px auto 0;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ffffffc4;
+  box-shadow: 0 8px 32px #1f26875e;
+}
+
+.button {
+  width: 16vw;
+  margin: 0 auto;
+  padding: 10px 25px;
+  font-size: 1.5vw;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+
+.button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button img {
+  width: 1.5vw;
+}
+
+/*  SERVICE SECTION */
+.main-container {
+  max-width: 50vw;
+  margin: 0 auto;
+  padding: 120px 80px;
+  text-align: center;
+}
+
+.service-box li {
+  text-align: left;
+  font-size: 2rem;
+  margin: 0 0 20px;
+}
+
+.service-box-img img {
+  width: 8vw;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/* RANGE SECTION */
+.range-container {
+  background-color: var(--primary-color);
+}
+
+.range-container p {
+  margin: 0 auto 50px;
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.social-media img {
+  width: 50px;
+  margin: 0 20px;
+}
+
+/* BRANDS SECTION */
+.brands-container img {
+  width: 15rem;
+  margin: 0 15px;
+}
+
+.footer {
+  width: 100vw;
+  padding: 20px 0;
+  background-color: var(--primary-color);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
+  /* GLOBAL CONFIGURATION */
+  h1 {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+
+  /* HERO BANNER */
+  .banner-container {
+    max-width: 70vw;
+  }
+
+  .button {
+    width: 22vw;
+    font-size: 2vw;
+  }
+
+  .button img {
+    width: 2vw;
+  }
+
+  .main-container {
+    max-width: 70vw;
+  }
+
+  .main-container iframe {
+    max-width: 60vw;
+  }
+
+  .service-box-img img {
+    width: 10vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* GLOBAL CONFIGURATION */
+  h1 {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+
+  /* HERO BANNER */
+  .banner-container {
+    max-width: 80vw;
+  }
+
+  .button {
+    width: 22vw;
+    font-size: 2vw;
+  }
+
+  .button img {
+    width: 2vw;
+  }
+
+  .main-container {
+    max-width: 80vw;
+  }
+
+  .main-container iframe {
+    max-width: 50vw;
+  }
+
+  .service-box-img img {
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* GLOBAL CONFIGURATION */
+  h1 {
+    font-size: 5.5vw;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 5vw;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 4vw;
+    margin-bottom: 20px;
+  }
+
+  /* HEADER E LOGO */
+  .header {
+    padding: 2rem;
+  }
+
+  .logo-name {
+    font-size: 2.5rem;
+  }
+
+  .logo-name img {
+    width: 2rem;
+  }
+
+  .logo-slogan {
+    font-size: 1rem;
+  }
+
+  /* HERO BANNER */
+  .banner-container {
+    max-width: 90vw;
+    padding: 20px 2px;
+  }
+
+  .button {
+    width: 40vw;
+    font-size: 3vw;
+  }
+
+  .button img {
+    width: 3vw;
+  }
+
+  /*  SERVICE SECTION */
+  .main-container {
+    max-width: 70vw;
+    padding: 50px 0px;
+  }
+
+  .service-box li {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+  }
+
+  .service-box-img img {
+    width: 110px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px 2px #0000005c;
+  }
+
+  .service-box-img img:last-child {
+    display: none;
+  }
+
+  /* RANGE SECTION */
+  .range-container p {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+
+  .social-media img {
+    width: 3rem;
+    margin: 0 10px;
+  }
+
+  /* BRANDS SECTION */
+  .brands-container img {
+    width: 5rem;
+    margin: 0 15px;
+  }
+
+  .main-container iframe {
+    max-width: 25rem;
+    max-height: 20rem;
+  }
+}
