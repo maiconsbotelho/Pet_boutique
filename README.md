@@ -7,7 +7,7 @@ garantindo uma experiência consistente em diferentes dispositivos, desde deskto
 O objetivo do projeto é proporcionar uma experiência informativa e conveniente para os clientes, 
 ao mesmo tempo em que promove os serviços e o profissionalismo.
 
-**Acesse a [Pet Boutique](https://selletesmalteria.com.br/)** para experimentar!
+**Acesse a [Pet Boutique](https://maiconsbotelho.github.io/Pet_boutique/)** para experimentar!
 
 ## Tecnologias Utilizadas
 
